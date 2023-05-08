@@ -28,4 +28,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: firmware
-          path: app/build/zephyr/zephyr.*
+          path: |
+            app/build/zephyr/zephyr.hex
+            app/build/zephyr/zephyr.elf
+            app/build/zephyr/zephyr.map
