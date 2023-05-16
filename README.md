@@ -1,4 +1,4 @@
-# Application template for nRF Connect SDK
+# nRF Connect SDK application template
 
 Blank starting point for an nRF Connect SDK application.
 
