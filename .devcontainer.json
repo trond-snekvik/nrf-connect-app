@@ -1,0 +1,14 @@
+{
+    "image": "ghcr.io/nrfconnect/sdk-nrf-toolchain:v2.5.0",
+    "features": {
+        "ghcr.io/nrfconnect/devcontainer/nrf-command-line-tools": {},
+        "ghcr.io/nrfconnect/devcontainer/nrf-connect-sdk": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "nordic-semiconductor.nrf-connect-extension-pack"
+            ]
+        }
+    }
+}
